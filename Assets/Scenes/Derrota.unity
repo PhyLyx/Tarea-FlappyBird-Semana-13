@@ -718,7 +718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1232605215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62cf8e8e80db7dc40904187832af4ffe, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d4c83b98de92bc4a90a92a7ae69973b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1426740704
@@ -805,9 +805,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1232605221}
-        m_TargetAssemblyTypeName: ControladorBoton, Assembly-CSharp
-        m_MethodName: CambiarEscena
-        m_Mode: 5
+        m_TargetAssemblyTypeName: UIDerrota, Assembly-CSharp
+        m_MethodName: VolverAlMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -20,9 +20,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void LoadScene(string Derrota)
+    public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene(Derrota);
+        SceneManager.LoadScene(sceneName);
     }
 
     public void AddScore(int amount)
@@ -42,7 +42,11 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
-        score = 0;
         SceneManager.LoadScene("Menu Principal");
+    }
+
+    public void ResetScore()
+    {
+        score = 0;
     }
 }
